@@ -63,7 +63,7 @@ const HeroContent = () => {
 
 const SignUpContent = ({ image, text }) => {
   return (
-    <div className='flex flex-col items-center justify-center w-1/4 py-3'>
+    <div className='flex flex-col items-center justify-center w-[27%] py-3'>
       <div id='thumbnail' className='h-28'>
         <a href='/' rel='noopener'>
           <Image
