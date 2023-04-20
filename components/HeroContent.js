@@ -27,7 +27,7 @@ const HeroContent = () => {
                     <a
                       href='/'
                       rel='noopener'
-                      className='w-full inline-block bg-green-300 py-[20px] px-[68px] text-lg font-bold text-white text-center rounded cursor-pointer hover:bg-green-400'
+                      className='w-full inline-block bg-green-300 py-[20px] px-[68px] text-lg font-bold text-white text-center rounded cursor-pointer transition hover:bg-green-400 hover:ease-out hover:duration-300'
                     >
                       See my scores
                     </a>
