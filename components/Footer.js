@@ -15,9 +15,15 @@ const Footer = () => {
           id='socialIcons'
           className='flex justify-around items-center w-1/2'
         >
-          <Instagram size={24} color='white' />
-          <Twitter size={24} color='white' />
-          <Facebook size={24} color='white' />
+          <a href='/'>
+            <Instagram size={24} color='white' />
+          </a>
+          <a href='/'>
+            <Twitter size={24} color='white' />
+          </a>
+          <a href='/'>
+            <Facebook size={24} color='white' />
+          </a>
         </div>
         <div id='qr-scanCode' className='flex justify-center items-start w-1/2'>
           <Image
@@ -37,7 +43,9 @@ const Footer = () => {
         className='flex justify-around items-start max-w-7xl mx-auto mt-9'
       >
         <div id='section-1' className='flex justify-center w-1/5'>
-          <Image src={digiCert} alt='digicert image' width={59} height={35} />
+          <a href='/'>
+            <Image src={digiCert} alt='digicert image' width={59} height={35} />
+          </a>
         </div>
         <div id='section-2' className='w-2/5'>
           <div className='text-gray-300 text-xs'>
