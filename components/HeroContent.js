@@ -1,5 +1,16 @@
+// Next.js Component
 import Image from 'next/image';
-import HeroImg from '../assets/content/header-hero_img.jpg';
+// Images
+import heroImg from '../assets/content/header-hero_img.jpg';
+import contentImg_1 from '../assets/content/content-img1.png';
+import contentImg_2 from '../assets/content/content-img2.png';
+import contentImg_3 from '../assets/content/content-img3.png';
+
+const titles = [
+  'Easy-to-read credit reports and personalized score insights',
+  'Tools & tips to help you understand your scores and take next steps',
+  'Free credit monitoring that can help you detect identity theft',
+];
 
 const HeroContent = () => {
   return (
@@ -9,7 +20,7 @@ const HeroContent = () => {
           <section className='mt-0 mb-4 mx-auto max-h-[1200px] overflow-hidden'>
             <div>
               <Image
-                src={HeroImg}
+                src={heroImg}
                 alt='Credit Karma Hero Image'
                 className='w-full h-auto m-0 object-cover max-h-none min-h-[380px] border-none'
               />
@@ -36,8 +47,38 @@ const HeroContent = () => {
               </div>
             </div>
           </section>
+          <div
+            id='signup-content'
+            className='flex flex-row flex-wrap justify-between items-baseline mt-0 mb-24 mx-auto pt-5 px-3 max-w-6xl'
+          >
+            <SignUpContent image={contentImg_1} text={titles[0]} />
+            <SignUpContent image={contentImg_2} text={titles[1]} />
+            <SignUpContent image={contentImg_3} text={titles[2]} />
+          </div>
         </div>
       </section>
+    </div>
+  );
+};
+
+const SignUpContent = ({ image, text }) => {
+  return (
+    <div className='flex flex-col items-center justify-center w-1/4 py-3'>
+      <div id='thumbnail' className='h-28'>
+        <a href='/' rel='noopener'>
+          <Image
+            src={image}
+            alt='Image of Benefits'
+            className='max-h-72 h-full w-auto max-w-full m-0'
+          />
+        </a>
+      </div>
+      <div id='text' className='text-center'>
+        <p className='leading-8 my-2 font-bold text-gray-700 text-lg'>{text}</p>
+        <a href='/' rel='noopener' className='no-underline text-sm'>
+          Sign up for free
+        </a>
+      </div>
     </div>
   );
 };
