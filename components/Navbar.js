@@ -15,19 +15,28 @@ const Navbar = () => {
         </a>
       </div>
       <nav className='flex items-start ml-auto box-border'>
-        <ul className='flex items-center m-0 p-0 text-sm text-gray-300 list-none box-border'>
+        <ul className='flex items-center m-0 p-0 text-sm list-none box-border'>
           <li className='text-left border-none inline-block font-light'>
-            <a href='/' className='py-[1.4375rem] px-[0.625rem] no-underline'>
+            <a
+              href='/'
+              className='py-[1.4375rem] px-[0.625rem] no-underline text-gray-500 hover:text-green-500'
+            >
               Login
             </a>
           </li>
           <li className='text-left border-none inline-block font-light'>
-            <a href='/' className='py-[1.4375rem] px-[0.625rem] no-underline'>
+            <a
+              href='/'
+              className='py-[1.4375rem] px-[0.625rem] no-underline text-gray-500 hover:text-green-500'
+            >
               Sign up for free
             </a>
           </li>
           <li className='text-left border-none inline-block font-light'>
-            <a href='/' className='py-[1.4375rem] px-[0.625rem] no-underline'>
+            <a
+              href='/'
+              className='py-[1.4375rem] px-[0.625rem] no-underline text-gray-500 hover:text-green-500'
+            >
               Help center
             </a>
           </li>
