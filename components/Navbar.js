@@ -19,7 +19,7 @@ const Navbar = () => {
           <li className='text-left border-none inline-block font-light'>
             <a
               href='/'
-              className='py-[1.4375rem] px-[0.625rem] no-underline text-gray-500 hover:text-green-500'
+              className='py-[1.4375rem] px-[0.625rem] no-underline text-gray-500 hover:text-green-500 transition hover:ease-out hover:duration-300'
             >
               Login
             </a>
@@ -27,7 +27,7 @@ const Navbar = () => {
           <li className='text-left border-none inline-block font-light'>
             <a
               href='/'
-              className='py-[1.4375rem] px-[0.625rem] no-underline text-gray-500 hover:text-green-500'
+              className='py-[1.4375rem] px-[0.625rem] no-underline text-gray-500 hover:text-green-500 transition hover:ease-out hover:duration-300'
             >
               Sign up for free
             </a>
@@ -35,7 +35,7 @@ const Navbar = () => {
           <li className='text-left border-none inline-block font-light'>
             <a
               href='/'
-              className='py-[1.4375rem] px-[0.625rem] no-underline text-gray-500 hover:text-green-500'
+              className='py-[1.4375rem] px-[0.625rem] no-underline text-gray-500 hover:text-green-500 transition hover:ease-out hover:duration-300'
             >
               Help center
             </a>
