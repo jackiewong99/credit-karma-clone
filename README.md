@@ -1,7 +1,5 @@
 # Credit Karma Clone
 
-![Vercel](https://therealsujitk-vercel-badge.vercel.app/?app={credit-karma-clone})
-
 A simple clone of Credit Karma's landing page built with [Next.js](https://nextjs.org/) and [Tailwind CSS](https://tailwindcss.com/), and hosted on [Vercel](https://vercel.com/).
 
 This project was bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app)
